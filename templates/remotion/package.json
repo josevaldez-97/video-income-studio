@@ -1,0 +1,19 @@
+{
+  "name": "video-income-studio-remotion",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Piloto01 out/piloto_remotion.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.540",
+    "remotion": "4.0.540",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/react": "^18.3.0"
+  }
+}
